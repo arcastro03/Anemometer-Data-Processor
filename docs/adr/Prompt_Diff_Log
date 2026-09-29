@@ -1,0 +1,11 @@
+## Prompt
+
+Help me write ADR-001 for my wind sensor data processing app. The architectural decision is to use recorded CSV files as the primary input instead of connecting the analysis application directly to the Raspberry Pi Pico. Include context, decision, at least two alternatives, and both positive and negative consequences.
+
+## Resulting Change
+
+Added:
+
+docs/adr/ADR-001.md
+
+The ADR documents the decision to separate sensor acquisition from data analysis and use CSV files as the application's primary input.
